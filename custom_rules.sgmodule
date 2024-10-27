@@ -3,7 +3,6 @@
 
 [Rule]
 # Custom
-#!include Crown.conf
 PROCESS-NAME,/Applications/ChatGPT.app/Contents/MacOS/ChatGPT,🇨🇳美国中转[专线]
 DOMAIN-SUFFIX,claude.ai,🇨🇳美国中转[专线]
 DOMAIN-SUFFIX,www.anthropic.com,🇨🇳美国中转[专线]
