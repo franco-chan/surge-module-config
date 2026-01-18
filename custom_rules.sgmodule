@@ -3,12 +3,19 @@
 
 [Rule]
 # Custom
-PROCESS-NAME,/Applications/ChatGPT.app/Contents/MacOS/ChatGPT,🇺🇸美国 CN2_3
-DOMAIN-SUFFIX,pay.openai.com,🇺🇸美国 CN2_3
-DOMAIN-SUFFIX,chatgpt.com,🇺🇸美国 CN2_3
-DOMAIN-SUFFIX,auth.openai.com,🇺🇸美国 CN2_3
-DOMAIN-SUFFIX,claude.ai,🇺🇸美国 CN2_3
-DOMAIN-SUFFIX,www.anthropic.com,🇺🇸美国 CN2_3
-DOMAIN-SUFFIX,console.anthropic.com,🇺🇸美国 CN2_3
-PROCESS-NAME,/Applications/Claude.app/Contents/MacOS/Claude,🇺🇸美国 CN2_3
-PROCESS-NAME,/Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper,🇺🇸美国 CN2_3
+- DOMAIN-SUFFIX,anthropic.com,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,claude.ai,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,chat.claude.ai,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,console.anthropic.com,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,api.anthropic.com,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,api.claude.ai,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,auth.anthropic.com,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,accounts.anthropic.com,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,claudeusercontent.com,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,storage.googleapis.com,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,cdn.cloudflare.net,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,sentry.io,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,analytics.google.com,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-SUFFIX,amplitude.com,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-KEYWORD,claude,🇺🇸 美国-洛杉矶 01丨1x US
+- DOMAIN-KEYWORD,anthropic,🇺🇸 美国-洛杉矶 01丨1x US
