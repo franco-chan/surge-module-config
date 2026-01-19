@@ -1,3 +1,6 @@
+#!name=🧲 Claude
+#!desc=Custom rules
+
 [Proxy Group]
 🧲 Claude = select, DIRECT, PROXY
 
