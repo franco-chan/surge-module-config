@@ -1,16 +1,20 @@
-- DOMAIN-SUFFIX,anthropic.com
-- DOMAIN-SUFFIX,claude.ai
-- DOMAIN-SUFFIX,chat.claude.ai
-- DOMAIN-SUFFIX,console.anthropic.com
-- DOMAIN-SUFFIX,api.anthropic.com
-- DOMAIN-SUFFIX,api.claude.ai
-- DOMAIN-SUFFIX,auth.anthropic.com
-- DOMAIN-SUFFIX,accounts.anthropic.com
-- DOMAIN-SUFFIX,claudeusercontent.com
-- DOMAIN-SUFFIX,storage.googleapis.com
-- DOMAIN-SUFFIX,cdn.cloudflare.net
-- DOMAIN-SUFFIX,sentry.io
-- DOMAIN-SUFFIX,analytics.google.com
-- DOMAIN-SUFFIX,amplitude.com
-- DOMAIN-KEYWORD,claude
-- DOMAIN-KEYWORD,anthropic
+[Proxy Group]
+🧲 Claude = select, DIRECT, PROXY
+
+[Rule]
+- DOMAIN-SUFFIX,anthropic.com,🧲 Claude
+- DOMAIN-SUFFIX,claude.ai,🧲 Claude
+- DOMAIN-SUFFIX,chat.claude.ai,🧲 Claude
+- DOMAIN-SUFFIX,console.anthropic.com,🧲 Claude
+- DOMAIN-SUFFIX,api.anthropic.com,🧲 Claude
+- DOMAIN-SUFFIX,api.claude.ai,🧲 Claude
+- DOMAIN-SUFFIX,auth.anthropic.com,🧲 Claude
+- DOMAIN-SUFFIX,accounts.anthropic.com,🧲 Claude
+- DOMAIN-SUFFIX,claudeusercontent.com,🧲 Claude
+- DOMAIN-SUFFIX,storage.googleapis.com,🧲 Claude
+- DOMAIN-SUFFIX,cdn.cloudflare.net,🧲 Claude
+- DOMAIN-SUFFIX,sentry.io,🧲 Claude
+- DOMAIN-SUFFIX,analytics.google.com,🧲 Claude
+- DOMAIN-SUFFIX,amplitude.com,🧲 Claude
+- DOMAIN-KEYWORD,claude,🧲 Claude
+- DOMAIN-KEYWORD,anthropic,🧲 Claude
